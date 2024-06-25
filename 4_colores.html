@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 colores</title>
+</head>
+<body>
+    <div id="rojo" style="width: 200px; height: 200px; background-color:red ;"></div>
+    <div id="azul" style="width: 200px; height: 200px; background-color: blue;"></div>
+    <div id="verde" style="width: 200px; height: 200px; background-color: green;"></div>
+    <div id="amarillo" style="width: 200px; height: 200px; background-color: yellow;"></div>
+    <script>
+        function pintar(element, color) {
+            element.style.backgroundColor = color;
+        }
+        let rojo = document.getElementById("rojo");
+        rojo.addEventListener("click", function() {
+            pintar(rojo, 'black');
+        });
+        let azul = document.getElementById("azul");
+        azul.addEventListener("click", function() {
+            pintar(azul, 'black');
+        });
+        let verde = document.getElementById("verde");
+        verde.addEventListener("click", function() {
+            pintar(verde, 'black');
+        });
+        let amarillo = document.getElementById("amarillo");
+        amarillo.addEventListener("click", function() {
+            pintar(amarillo, 'black');
+        });
+    </script>
+</body>
+</html>
